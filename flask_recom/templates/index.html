@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+
+
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>Classic.com's Recommender system</title>
+      <meta name="description" content="bullshit">
+      <meta name="author" content="AJ;)">
+
+
+    </head>
+
+    <body>
+
+    <center><div class="rd-box">
+      <form action="/Price">
+        <p><br><br>
+          <label for="market_name">Enter Market or Vehicle here:</label><br>
+          <input type="text" name = "title">
+        </p>
+        <p><button type="Price">Price</button>
+          <button type="Mileage" formaction="/mileage">Mileage</button>
+          <button type="CMV" formaction="/CMV">CMV</button>
+          <button type="Overall" formaction="/overall">Overall</button>
+        </p>
+
+      </form>
+
+    </div></center>
+    </body>
+    </html>
+    <table>
+        <tr>
+            <th>Price</th>
+            <th>Mileage</th>
+            <th>CMV</th>
+        </tr>
+            <td></td>
+            <td></td>
+            <td>
+                <a href="">Price</a>
+                <br>
+                <a href="">Mileage</a>
+                <br>
+                <a href="">CMV</a>
+                </td>
+    </table>
+
+
+</div> -->
+{% endblock %}

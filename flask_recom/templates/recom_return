@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+
+<!doctype html>
+
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>Similar Markets</title>
+      <meta name="description" content="bullshit">
+      <meta name="author" content="AJ;)">
+    </head>
+
+    <center><div>
+    <p>{{user_input}} is worth {{___}}</p> #market value and/or price
+    <p>The top 3 vehicles similar to {{user_input}} are:</p>
+    <!-- {{____}} --> # recommended vehicles
+    <ol>
+
+      {%for i in (_____)%} #related markets
+
+        <li>
+        {{i['title']}} | Market Value: {{i['cmv']}}
+
+        </li>
+      {%endfor%}
+
+
+    </ol>
+    </div>
+    </body></center>
+    </html>
+{% endblock %}
